@@ -178,7 +178,7 @@ A comprehensive test plan was executed to ensure system reliability:
 
 *   **Test Cases included:**
 
-&nbsp;   *   Ordering a single valid item.
+         *   Ordering a single valid item.
 
 &nbsp;   *   Ordering multiple valid items.
 
@@ -200,19 +200,19 @@ A comprehensive test plan was executed to ensure system reliability:
 
 3.  **Compile the code** using your compiler. For example, with GCC:
 
-&nbsp;   ```bash
+```
+bash
 
-&nbsp;   g++ -o meal_hut_billing main.cpp
-
-&nbsp;   ```
+ g++ -o meal_hut_billing main.cpp
+```
 
 4.  **Run the executable:**
 
-&nbsp;   ```bash
+```
+bash
 
-&nbsp;   ./meal_hut_billing
-
-&nbsp;   ```
+./meal_hut_billing
+ ```
 
 
 
