@@ -65,7 +65,7 @@ This project was developed as part of the **CSE4002 - Fundamentals in Programmin
 
 
 The restaurant offers the following items:
-
+```
 | Item No | Menu Item     | Price |
 
 | :------ | :------------ | :---- |
@@ -85,7 +85,7 @@ The restaurant offers the following items:
 | 117     | Coffee        | $0.50 |
 
 | 118     | Tea           | $0.75 |
-
+```
 
 
 ## 🖱️ How to Use
@@ -98,11 +98,11 @@ The restaurant offers the following items:
 
 3.  **Select Option 2:** `Order Items` to begin your order.
 
-&nbsp;   *   Enter the item number for each item you wish to purchase.
+*   Enter the item number for each item you wish to purchase.
 
-&nbsp;   *   Type `-1` and press Enter when you are finished ordering.
+*   Type `-1` and press Enter when you are finished ordering.
 
-&nbsp;   *   The system will alert you if you enter an invalid item number.
+*   The system will alert you if you enter an invalid item number.
 
 4.  **Select Option 3:** `Print Bill` to generate and view your receipt. The bill will show all selected items, the calculated tax (5%), and the final amount due.
 
@@ -116,11 +116,11 @@ The restaurant offers the following items:
 
 *   **Assumptions:**
 
-&nbsp;   *   The menu is fixed and pre-defined within the program.
+*   The menu is fixed and pre-defined within the program.
 
-&nbsp;   *   A 5% sales tax is applied to the total cost of the order.
+*   A 5% sales tax is applied to the total cost of the order.
 
-&nbsp;   *   The program runs in a console/terminal environment.
+*   The program runs in a console/terminal environment.
 
 *   **Design:** The system was designed using a top-down approach with flowcharts for core functions (`getData`, `showMenu`, `printCheck`) to ensure logical flow and reduce complexity. The design emphasizes modularity and data passing between functions.
 
@@ -152,11 +152,11 @@ The program is structured into several functions for clarity and maintainability
 
 *   **Control Structures:**
 
-&nbsp;   *   **Sequence:** The logical flow of function calls.
+ *   **Sequence:** The logical flow of function calls.
 
-&nbsp;   *   **Selection:** `switch` statement for the main menu and `if-else` statements for input validation.
+ *   **Selection:** `switch` statement for the main menu and `if-else` statements for input validation.
 
-&nbsp;   *   **Repetition:** `do-while` loop for the main menu and a `while` loop for continuous item input.
+ *   **Repetition:** `do-while` loop for the main menu and a `while` loop for continuous item input.
 
 *   **Data Passing:** Data is passed between modules (functions) using parameters. Arrays are passed by reference, and sizes are passed by value or reference as needed to maintain data integrity.
 
@@ -180,13 +180,13 @@ A comprehensive test plan was executed to ensure system reliability:
 
          *   Ordering a single valid item.
 
-&nbsp;   *   Ordering multiple valid items.
+         *   Ordering multiple valid items.
 
-&nbsp;   *   Entering an invalid item number (handled gracefully).
+         *   Entering an invalid item number (handled gracefully).
 
-&nbsp;   *   Attempting to print a bill with no items selected (handled gracefully).
+         *   Attempting to print a bill with no items selected (handled gracefully).
 
-&nbsp;   *   Verifying correct tax and total calculations.
+         *   Verifying correct tax and total calculations.
 
 
 
